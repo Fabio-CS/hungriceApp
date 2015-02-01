@@ -27,29 +27,7 @@
         android:src="@drawable/hungrice_logo"
         android:contentDescription="Hungrice Logo" />
 
-    <ScrollView android:id="@+id/login_form" android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:orientation="vertical" android:layout_gravity="bottom">
 
-            <com.google.android.gms.common.SignInButton android:id="@+id/plus_sign_in_button"
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:layout_marginBottom="32dp" />
-
-            <LinearLayout android:id="@+id/plus_sign_out_buttons"
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:visibility="gone" android:weightSum="2">
-
-                <Button android:id="@+id/plus_sign_out_button" style="?android:textAppearanceSmall"
-                    android:layout_width="match_parent" android:layout_height="match_parent"
-                    android:layout_weight="1" android:text="@string/plus_sign_out" />
-
-                <Button android:id="@+id/plus_disconnect_button"
-                    style="?android:textAppearanceSmall" android:layout_width="match_parent"
-                    android:layout_height="match_parent" android:layout_weight="1"
-                    android:text="@string/plus_disconnect" />
-
-            </LinearLayout>
 
             <LinearLayout android:id="@+id/email_login_form" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="bottom">
@@ -71,13 +49,11 @@
                     android:layout_width="match_parent" android:layout_height="wrap_content"
                     android:text="@string/action_sign_in"
                     android:textStyle="bold"
+                    android:onClick="login"
                     android:layout_marginBottom="1dp" />
 
             </LinearLayout>
         </LinearLayout>
-    </ScrollView>
-
-</LinearLayout>
 
 
 

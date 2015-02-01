@@ -4,6 +4,14 @@
     <string name="app_name">Hungrice</string>
     <string name="title_activity_login">Login</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_Search">Search Menu</string>
     <string name="action_settings">Settings</string>
+    <string name="search_by_place">Search by Place</string>
+    <string name="search_by_food">Search by Food</string>
+    <string name="search_by_type">Search by Type</string>
+    <string name="search_btn">Search</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="btn_profile">Profile</string>
+    <string name="btn_checkin">Check-in</string>
 
 </resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="place_array">
+    <item>Seibel</item>
+    <item>South Servery</item>
+    <item>North Servery</item>
+    <item>West Servery</item>
+</string-array>
+    <string-array name="food_array">
+        <item>Mac n\' cheese </item>
+        <item>Tacos</item>
+        <item>Chicken Alfredo</item>
+        <item>Roasted Beef</item>
+    </string-array>
+    <string-array name="type_food_array">
+        <item>Spice</item>
+        <item>Chinese</item>
+        <item>Mexican</item>
+        <item>Italian</item>
+    </string-array>
+</resources>
